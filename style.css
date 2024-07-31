@@ -1,0 +1,142 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: Arial, Helvetica;
+    line-height: 1.6;
+    background-color: #e6e6e6;
+}
+
+header{
+    background-color: #ffffff;
+    color: rgb(34, 32, 32);
+    padding: 0px 0;
+}
+
+.header-logo{
+    width: 100px;
+    height: 100px;
+}
+
+.Logo{
+    width: 700px;
+    height: 200px;
+}
+
+header h1{
+    text-align: center;
+}
+
+nav ul {
+    background-color: #ccc;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    height: 40px;
+    align-content: center;
+    
+}
+
+nav ul li {
+    margin: 0 16px;
+}
+
+nav ul li a {
+    color: rgb(255, 255, 255);
+    border: solid top #000;
+    padding: 8px 16px;
+}
+
+nav ul li a:hover{
+    background: white;
+    color: #333;
+    border-radius: 10px;
+}
+
+section{
+    padding: 32px 0;
+}
+
+section h2, section p, section ul{
+    text-align: center;
+    color: #333;
+}
+
+section h2{
+    padding: 25px;
+}
+
+section p{
+    padding: 0 40px;
+}
+
+section ul li{
+    padding: 8px 0;
+}
+
+#contact{
+    background-color: #ccc;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: 0 auto;
+}
+form label{
+    margin-bottom: 8px;
+}
+form input, form textarea{
+    margin-bottom: 16px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+form button{
+    padding: 12px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    margin: 2px 10px;
+    width: 100px;
+}
+form button:hover{
+    background-color: #555;
+}
+
+.button-container{
+    display: flex;
+    justify-content: center;
+}
+
+.button-delete{
+    background-color: rgb(173, 22, 22);
+}
+
+.button-delete:hover{
+    background-color: rgb(118, 13, 13);
+}
+
+.button-submit{
+    background-color: rgb(21, 141, 21);
+}
+
+.button-submit:hover{
+    background-color: rgb(10, 88, 10)
+}
+
+footer{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 4px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
