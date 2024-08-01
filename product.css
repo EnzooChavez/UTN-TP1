@@ -1,3 +1,30 @@
+@media screen and (min-width: 700px){
+.product-container{
+    display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        gap: 20px;
+        margin: 0px 10px 80px 10px;
+        }
+
+}
+
+h2{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+.golosinas{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
 
 *{
     box-sizing: border-box;
@@ -9,13 +36,6 @@ body{
     font-family: "noto-serif";
     line-height: 1.6;
     background-color: #e6e6e6;
-}
-
-.box{
-    background-image:  linear-gradient(#eca869, transparent 30%), url(https://www.fundacionmapfre.org/media/blog/campana-camiones-autobuses-1194x585-1.jpg);
-    width: 100%;
-    height: 600px;
-    background-size: cover;
 }
 
 header{
@@ -78,19 +98,6 @@ nav ul li a:hover{
     border-radius: 10px;
 }
 
-
-
-section h2, section p, section ul{
-    text-align: center;
-    color: #333;
-}
-
-.golosinas{
-    width: 200px;
-    height: 200px;
-    box-sizing: 100px;
-}
-
 section h2{
     padding: 25px;
 }
@@ -102,13 +109,3 @@ section p{
 section ul li{
     padding: 8px 0;
 }
-
-footer{
-    background-color: #ccc;
-    color: #000000;
-    text-align: center;
-    padding: 4px 0;
-    width: 100%;
-    bottom: 0;
-}
-

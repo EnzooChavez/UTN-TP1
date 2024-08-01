@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contact.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -24,27 +24,29 @@
                 </nav>
         </div>
     </header>
-    <main>
-        <section id="home">
-            <div class="box">
-                <h2>Lideres en distribuicion y abastecimiento desde 2024</h2>
-                <p>Nos encargamos de proveer el mejor servicio al mejor precio posible en cada uno de nuestros productos</p>
+    <section id="contact">
+        <h2>Contacto</h2>
+        <form>
+            <label class="formulario" for="nombre">Nombre:</label>
+            <input type="text" name="nombre">
+
+            <label class="formulario" for="email">Email</label>
+            <input type="email" name="email">
+
+            <label class="formulario" for="tel">Telefono:</label>
+            <input type="tel" name="tel">
+
+            <label class="formulario" for="checkbox">Deseo recibir noticias:</label>
+            <input type="checkbox" name="checkbox">
+
+            <label class="formulario" for="message">Mensaje</label>
+            <textarea name="message"></textarea>
+            
+            <div class="button-container">
+                <button class="button-submit" for="submit">Enviar</button>
+                <button class="button-delete" type="reset">Borrar</button>
             </div>
-            </section>
-            </main>
-    <footer>
-            <h5>Pasa a Saludar!</h5>
-            <div>
-              <i> <img src="./Imagenes/instagram.svg" alt="instangram"></i>
-              <span> DistruibuidoraDora </span>
-              
-            </div>
-            <div>
-              <i> <img src="./Imagenes/whatsapp.svg"" alt="whatsapp"></i>
-              <span> 11-23456789 </span>
-            </div>
-             <hr>
-             <span> Tp - Enzo Chavez </span>
-    </footer>
-</body>
-</html>
+            
+        </form>
+    </section>
+</main>
